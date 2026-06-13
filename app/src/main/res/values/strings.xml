@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">DigitalWallet</string>
+    <string name="home">Home</string>
+    <string name="merchant">Merchant</string>
+    <string name="history">History</string>
+    <string name="profile">Profile</string>
+    <string name="scan">Scan</string>
+</resources>
