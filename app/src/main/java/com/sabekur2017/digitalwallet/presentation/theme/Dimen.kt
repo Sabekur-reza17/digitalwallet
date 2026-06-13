@@ -233,6 +233,11 @@ object Sdp {
         get() = with(LocalConfiguration.current) {
             toDp(70)
         }
+    val dp72: Dp
+        @Composable
+        get() = with(LocalConfiguration.current) {
+            toDp(72)
+        }
     val dp80: Dp
         @Composable
         get() = with(LocalConfiguration.current) {
@@ -252,6 +257,16 @@ object Sdp {
         @Composable
         get() = with(LocalConfiguration.current) {
             toDp(120)
+        }
+    val dp130: Dp
+        @Composable
+        get() = with(LocalConfiguration.current) {
+            toDp(130)
+        }
+    val dp150: Dp
+        @Composable
+        get() = with(LocalConfiguration.current) {
+            toDp(150)
         }
 
     val dp160: Dp
