@@ -12,6 +12,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.style.TextOverflow
 import com.sabekur2017.digitalwallet.presentation.theme.Sdp
 
 @Composable
@@ -31,6 +32,8 @@ fun HomeHeader(userName: String) {
             style = MaterialTheme.typography.titleLarge,
             fontWeight = FontWeight.Bold,
             color = Color.White,
+            maxLines = 1,
+            overflow = TextOverflow.Ellipsis,
             modifier = Modifier.padding(top = Sdp.dp4)
         )
         Row(
@@ -52,7 +55,7 @@ fun HomeHeader(userName: String) {
             }
             Spacer(modifier = Modifier.width(Sdp.dp12))
             Surface(
-                modifier = Modifier.size(Sdp.dp36),
+                modifier = Modifier.size(Sdp.dp32),
                 shape = CircleShape,
                 color = Color.White
             ) {
